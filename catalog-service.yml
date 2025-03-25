@@ -1,2 +1,10 @@
 polar:
   greeting: Welcome to the production catalog from the config server
+eureka:
+ instance:
+ hostname: localhost
+ ip-address: 127.0.0.1
+ preferIpAddress: true
+ client:
+ registerWithEureka: true
+
